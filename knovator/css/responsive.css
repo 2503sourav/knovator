@@ -1,0 +1,251 @@
+@media screen and (max-width:1499px) {
+    .job-offer-card-main:hover{
+        width: 335px;
+    }
+
+    .job-offer-btn a{
+        padding: 13px 85px 12px 92px;
+    }
+}
+
+
+@media screen and (max-width:1439px) {
+    .categrory-card {
+        width: 33.33%;
+    }
+
+}
+
+@media screen and (max-width:1399px) {
+    .job-offer-card{
+        width: 33.33%;
+    }
+
+    .job-offer-card-main:hover{
+        width: 374px;
+    }
+
+    #best-campany {
+        width: 100%;
+        margin: 80px 0;
+    }
+
+    #job-offers-main{
+        padding: 70px 0;
+    }
+    
+}
+
+@media screen and (max-width:1199px) {
+    .best-campany-card{
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width:1299px) {
+    .banner-img {
+        display: none;
+    }
+    .banner-main {
+        background:none;
+    }
+    .banner-text-box {
+        width: 100%;
+    }
+    .banner-content {
+        padding: 153px 0px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .categrory-card {
+        width: 50%;
+    }
+    .card-text h3{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .job-offer-card {
+        width: 50%;
+    }
+    #job-offers-main {
+        padding: 60px 0;
+    }
+    #best-campany {
+        margin: 60px 0;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .best-campany-card {
+        width: 50%;
+    }
+    #job-offers-main {
+        padding: 40px 0;
+    }
+    #best-campany {
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    #header-main{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        background-color: #E6F0F9;
+        padding: 10px 0;
+        box-shadow: 0 0 10px rgba(89, 84, 84, 0.6);
+    }
+
+    .navigation-button {
+        width: 30px;
+        height: 2px;
+        background: var(--black);
+        position: absolute;
+        right: 17px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+    }
+    .navigation-button:after,.navigation-button::before {
+        width: 100%;
+        height: 2px;
+        background-color: var(--black);
+        position: absolute;
+        content: "";
+        right: 0;
+    }
+    .navigation-button:after {
+        top:-7px;
+        transition: all ease 0.5s;
+    }
+    .navigation-button::before {
+        top:7px;
+        transition: all ease 0.5s;
+
+    }
+
+    .content .navigation-button{
+        background: transparent;
+    }
+
+    .content .navigation-button:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+    .content .navigation-button::before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    nav {
+        position: fixed;
+        /* display: block; */
+        visibility: hidden;
+        opacity: 0;
+        top: 0;
+        right: -110%;
+        width: 50%;
+        background-color: #fff;
+        transition: all ease 0.5s;
+        height: 100vh;
+    }
+
+    
+
+    .content nav {
+        position: fixed;
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+        right: 0;
+        width: 50%;
+        background-color: #fff;
+        height: 100vh;
+        box-shadow: 0 0 10px rgba(64, 57, 57, 0.6);
+    }
+    .content nav .user-manu {
+        display: block;
+    }
+    nav .user-manu {
+        display: block;
+        transition: all 0.4s;
+    }
+
+    .banner-content {
+        padding: 100px 0px;
+    }
+    .banner-title{
+        max-width: 75%;
+    }
+
+    .banner-title h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .slogan {
+        margin: 10px 0px;
+    }
+
+    .slogan p {
+        font-size: 17px;
+    }
+
+    .popular-searches ul {
+        row-gap: 10px;
+    }
+    .search-job{
+        width: 100%;
+    }    
+
+    .categrory-card {
+        width: 100%;
+    }
+
+    .category-card-icon-text-wrapper{
+        padding: 20px;
+    }
+
+    .job-offer-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:539px) {
+    .content nav{
+        width: 80%;
+    }
+    .banner-content {
+        padding: 80px 0px;
+    }
+
+    .banner-title h1 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    .slogan p {
+        font-size: 15px;
+    }
+
+    .search-job{
+        margin: 15px 0;
+    }
+
+    .category-card-icon-text-wrapper{
+        padding: 17px;
+    }    
+
+    .category-icon-text h4{
+        font-size: 16px;
+    }
+        
+}
